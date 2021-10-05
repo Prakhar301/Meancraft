@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>C85</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<body class="body_background">
+<center>
+<h2 class="btn-primary">MINECRAFT</h2>
+<div class="btn-danger" id="head_info">
+<h3>Current Width  = <span id="current_width">30</span></h3>
+<h3>Current Height  = <span id="current_height">30</span></h3>
+<label>If player not visible, press any arrow key</label>
+<label>Press Shift+q to increase size by 10 and press Shift+z to decrease size by 10</label>
+<label>Press  e for drawing gold ore, h for drawing diamond ore, i for drawing water, w for drawing a wall, a for drawing gravel, y for drawing a yellow wall, u for drawing unique, m for drawing granite, p for drawing pink, j for drawing redstone, g for drawing ground, d for drawing dark green, l for drawing light green, f for drawing lava, t for drawing trunk, r for drawing roof, c for drawing cloud and b for drawing black wall</label>
+</div>
+<br>
+<canvas id="myCanvas" width="1000" height="800"></canvas>
+<br>
+<button onclick="clearArea();">Clear</button>
+</center>
+<br>
+<script src="main.js"></script>
+</body>
+</html>
